@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0808f546-7267-40c5-bf1b-8a4eca7825eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/admin/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/register/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/unauthorized/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/LoginButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/prisma.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prisma.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/prisma.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +123,9 @@
       <workItem from="1769864859083" duration="50000" />
       <workItem from="1770006933775" duration="6561000" />
       <workItem from="1770036045151" duration="28000" />
+      <workItem from="1770048173402" duration="1372000" />
+      <workItem from="1770099913459" duration="2146000" />
+      <workItem from="1770109484369" duration="111000" />
     </task>
     <servers />
   </component>

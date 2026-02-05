@@ -1,13 +1,18 @@
+<<<<<<< homepage
 "use client";
 import Slider from "../components/PublicFacing/Slider";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+=======
+import Link from "next/link";
+>>>>>>> main
 
 export default function Home() {
   const [open, setOpen] = useState(false);
 
   return (
+<<<<<<< homepage
     <div className="text-white min-h-screen">
       <nav className="w-full bg-white/10 backdrop-blur-md px-6 md:px-16 py-3 shadow-md relative">
         <div className="flex items-center justify-between">
@@ -77,6 +82,14 @@ export default function Home() {
           Get Start
         </button>
         </Link>
+=======
+      <div>
+          <main>
+              <Link href="/login">
+                  <button> Go to login page</button>
+              </Link>
+          </main>
+>>>>>>> main
       </div>
     </div>
   );
