@@ -1,4 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import GlassDock from "../components/PublicFacing/Navbar";
+import LightRays from "../components/PublicFacing/LightRays";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,11 +20,27 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className=" absolute inset-0 top-0 z-[-1] min-h-screen">
+          <LightRays
+            raysOrigin="top-center-offset"
+            raysColor="#5dfeca"
+            raysSpeed={0.5}
+            lightSpread={0.9}
+            rayLength={1.4}
+            followMouse={true}
+            mouseInfluence={0.02}
+            noiseAmount={0}
+            distortion={0.1}
+            pulsating={false}
+            fadeDistance={1}
+            saturation={1}
+          />
+        </div>
+        <main>{children}</main>
       </body>
     </html>
   );
