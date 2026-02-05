@@ -1,6 +1,7 @@
 "use client";
 import Slider from "../components/PublicFacing/Slider";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -18,12 +19,16 @@ export default function Home() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
+            <Link href={'#'}>
             <button className="text-lg hover:text-gray-300 transition cursor-pointer">
               Sign up
             </button>
+            </Link>
+            <Link href={'/login'}>
             <button className="bg-white/20 w-30 border border-white/30 px-4 py-1.5 rounded-lg text-lg hover:bg-white/30 transition cursor-pointer">
               Sign in
             </button>
+            </Link>
           </div>
 
           <button
@@ -36,12 +41,16 @@ export default function Home() {
 
         {open && (
           <div className="md:hidden mt-4 flex flex-col gap-3 bg-white/10 backdrop-blur-md p-4 rounded-xl">
+            <Link href={'#'}>
             <button className="text-lg w-30 text-center hover:text-gray-300 transition cursor-pointer">
               Sign up
             </button>
+            </Link>
+            <Link href={'/login'}>
             <button className="bg-white/20 text-center w-30 border border-white/30 px-4 py-1.5 rounded-lg text-lg hover:bg-white/30 transition cursor-pointer">
               Sign in
             </button>
+            </Link>
           </div>
         )}
       </nav>
@@ -63,9 +72,11 @@ export default function Home() {
       </p>
       <Slider />
       <div className="flex justify-center mt-10">
-        <button className="bg-white/10 py-3 px-8  w-50 border border-white/20 rounded-lg hover:bg-white/20 transition duration-300">
+        <Link href={'#'}>
+        <button className="bg-white/10 cursor-pointer py-3 px-8  w-50 border border-white/20 rounded-lg hover:bg-white/20 transition duration-300">
           Get Start
         </button>
+        </Link>
       </div>
     </div>
   );
